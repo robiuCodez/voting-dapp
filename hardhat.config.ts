@@ -4,12 +4,12 @@ import "@nomicfoundation/hardhat-toolbox";
 
 const config: HardhatUserConfig = {
   solidity: "0.8.17",
-  defaultNetwork: "localhost",
-  networks: {
-    localhost: {
-      url: "http://127.0.0.1:8545",
-    },
-  },
+  // defaultNetwork: "localhost",
+  // networks: {
+  //   localhost: {
+  //     url: "http://127.0.0.1:8545",
+  //   },
+  // },
   paths: {
     sources: "./src/contracts",
     artifacts: "./src/abis",

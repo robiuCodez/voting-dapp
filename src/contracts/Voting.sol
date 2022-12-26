@@ -1,6 +1,9 @@
 // SPDX-License-Identifier: UNLICENSED
 pragma solidity ^0.8.9;
 
+// hardhat console
+import "hardhat/console.sol";
+
 contract Voting {
     // Create a Poll
     struct Poll {
@@ -142,7 +145,7 @@ contract Voting {
         return polls[_pollId];
     }
 
-    function getAllPoll() public view returns (Poll[] memory) {
+    function getAllPolls() public view returns (Poll[] memory) {
         return polls;
     }
 
