@@ -1,0 +1,21 @@
+{
+  "name": "learn02",
+  "version": "1.0.0",
+  "description": "Test Driven Development - TDD using Hardhat.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "TDD",
+    "Hardhat"
+  ],
+  "author": "Ridwan Adefemi Odubona",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.0",
+    "chai": "^4.3.7",
+    "chai-as-promised": "^7.1.1",
+    "hardhat": "^2.12.4"
+  }
+}
